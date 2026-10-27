@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   // relative asset paths, so the built site works from any folder or sub-path on a static host
-  base: '/portfolio/',
+  base: './',
   build: {
     rollupOptions: {
       output: {
